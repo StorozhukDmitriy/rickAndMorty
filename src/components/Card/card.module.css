@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 395px;
+    border: 2px solid #16acc9;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.card p {
+    margin-top: 10px;
+    color: #16acc9;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.card p:hover{
+    -webkit-text-stroke: 1px #d4db4b
+}
+
